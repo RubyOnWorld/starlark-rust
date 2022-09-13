@@ -57,6 +57,17 @@ impl BcOpcodeEnum {
                 .collect(),
         }
     }
+    
+        fn reverse(input: ItemEnum) -> BcOpcodeEnum {
+        BcOpcodeEnum {
+            span: input.span(),
+            variants: input
+                .variants
+                .iter()
+                .map(BcOpcodeEnum::parse_variant)
+                .collect(),
+        }
+    }
 
     fn render_dispatch_variant(&self, variant: &Ident) -> TokenStream {
         let instr = format_ident!("Instr{}", variant);

@@ -66,6 +66,17 @@ fn lalrpop() {
 		<Unit filename="../test/t.bat" />
 		<Unit filename="../test/tc-cl.bat" />
 		<Unit filename="../test/tc.bat" />
+		<Unit filename="../test/gsl-lite.t.hpp" />
+		<Unit filename="../test/issue.t.cpp" />
+		<Unit filename="../test/lest_cpp03.hpp" />
+		<Unit filename="../test/not_null.t.cpp" />
+		<Unit filename="../test/owner.t.cpp" />
+		<Unit filename="../test/span.t.cpp" />
+		<Unit filename="../test/string_span.t.cpp" />
+		<Unit filename="../test/t-all.bat" />
+		<Unit filename="../test/t.bat" />
+		<Unit filename="../test/tc-cl.bat" />
+		<Unit filename="../test/tc.bat" />
 		<Unit filename="../test/tg-all.bat" />
 		<Unit filename="../test/tg.bat" />
 		<Unit filename="../test/util.t.cpp" />
